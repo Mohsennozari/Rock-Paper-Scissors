@@ -1,6 +1,6 @@
 // Variables
 $font-family: 'Georgia', sans-serif;
-$background-color: #f0f0f0;
+$background-color: #ffbb00;
 $text-color: #333333;
 $primary-color: #007bff;
 $primary-dark: #0056b3;
@@ -71,7 +71,7 @@ h1 {
 .results {
   margin: 20px auto;
   max-width: 600px;
-  background: #ffffff;
+  background: #fa6666;
   border-radius: 12px;
   box-shadow: 0 6px 12px $shadow-light;
   padding: 20px;
@@ -99,8 +99,9 @@ h1 {
 .scoreboard {
   margin: 20px auto;
   max-width: 600px;
-  background: #ffffff;
+  background: #56ec88;
   border-radius: 12px;
+  color:#000000;
   box-shadow: 0 6px 12px $shadow-light;
   padding: 20px;
   display: flex;
@@ -122,7 +123,7 @@ h1 {
 .history {
   margin: 20px auto;
   max-width: 600px;
-  background: #ffffff;
+  background: #68cfff;
   border-radius: 12px;
   box-shadow: 0 6px 12px $shadow-light;
   padding: 20px;
