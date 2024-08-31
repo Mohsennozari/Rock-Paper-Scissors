@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+</head>
+<body>
+    <h1>Rock, Paper, Scissors Game</h1>
+    <div class="instructions">
+        <p>Select Rock, Paper, or Scissors to play against the computer.</p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="play('rock')">
+            <img src="/assets/EEEEE.jpg" alt="Rock" class="choice-image" style="border-radius: 50%;width:100px;height:100px"> Rock
+        </button>
+        <button onclick="play('paper')">
+            <img src="/assets/GGGGG.jpg" alt="Paper" class="choice-image" style="border-radius: 50%;width:100px;height:100px"> Paper
+        </button>
+        <button onclick="play('scissors')">
+            <img src="/assets/DDDD.avif" alt="Scissors" class="choice-image" style="border-radius: 50%;width:100px;height:100px"> Scissors
+        </button>
+    </div>
+
+    <div class="results">
+        <h2 id="result"></h2>
+        <div class="result-images">
+            <p>Computer chose:</p>
+            <img id="computer-choice-image" src="/assets/jjjjj.jpg" alt="Computer's Choice"  style="border-radius: 50%;width:100px;height:100px">
+        </div>
+    </div>
+
+    <div class="scoreboard">
+        <h3>Score</h3>
+        <p id="user-score">User: 0</p>
+        <p id="computer-score">Computer: 0</p>
+        <p id="round">Round: 0</p>
+    </div>
+
+    <div class="history">
+        <h3>Game History</h3>
+        <ul id="history-list"></ul>
+        <button onclick="clearHistory()">Clear History</button>
+        <button onclick="saveHistory()">Save History</button>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
